@@ -21,10 +21,11 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
 
+    - name: Download Gradle Wrapper / Generate Build
+      uses: gradle/actions/setup-gradle@v3
+
     - name: Build Debug APK
-      run: |
-        chmod +x gradlew || true
-        ./gradlew assembleDebug --no-daemon
+      run: gradle assembleDebug --no-daemon
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
