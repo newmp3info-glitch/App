@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631833902382",
+    "project_id": "studio-zd65u",
+    "storage_bucket": "studio-zd65u.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631833902382:android:1d6b1645e80090836ecebf",
+        "android_client_info": {
+          "package_name": "com.fast.referralapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr0ZGXxtmpXWHkf1U0BKNL0xm5Q8qaU4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
