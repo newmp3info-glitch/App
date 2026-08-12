@@ -155,7 +155,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <!-- Referral & Earn Banner -->
+    <!-- Referral & Earn Banner with amount info -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -167,16 +167,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="REFER &amp; EARN"
+            android:text="REFER &amp; EARN (Get ৳50 Per Referral)"
             android:textColor="#FFD700"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Share your referral link with friends and get commission instantly on every activity!"
+            android:text="Share your referral link with friends and get ৳50 instantly on every successful join!"
             android:textColor="#FFFFFF"
             android:textSize="12sp" />
 
