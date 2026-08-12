@@ -132,6 +132,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btnAddCash"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -142,6 +143,7 @@
                 android:textStyle="bold" />
 
             <Button
+                android:id="@+id/btnWithdraw"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -179,6 +181,7 @@
             android:textSize="12sp" />
 
         <Button
+            android:id="@+id/btnShare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -196,6 +199,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btnRewards"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -204,6 +208,7 @@
             android:textColor="#FFFFFF" />
 
         <Button
+            android:id="@+id/btnReferrals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -212,6 +217,7 @@
             android:textColor="#FFFFFF" />
 
         <Button
+            android:id="@+id/btnLeaderboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#134E35"
