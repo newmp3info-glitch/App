@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         // Share Referral Link with your official domain
         btnShare.setOnClickListener {
-            val shareText = "Join Fast Yono App and start earning daily! Use my link: https://fastyonoapp.online/?code=VIPQSYFW1U7"
+            val shareText = "Join Fast Yono App and start earning daily! Use my link: https://www.fastyonoapp.online/?code=VIPQSYFW1U7"
             val intent = Intent().apply {
                 action = Intent.ACTION_SEND
                 type = "text/plain"
