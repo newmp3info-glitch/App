@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btnWithdraw = findViewById<Button>(R.id.btnWithdraw)
         val btnShare = findViewById<Button>(R.id.btnShare)
         val btnRewards = findViewById<Button>(R.id.btnRewards)
-        val btnReferrals = findViewById<Button><R.id.btnReferrals>() // or R.id.btnReferrals
+        val btnReferrals = findViewById<Button>(R.id.btnReferrals)
         val btnLeaderboard = findViewById<Button>(R.id.btnLeaderboard)
 
         // Add Cash Click Action
